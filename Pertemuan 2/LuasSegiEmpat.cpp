@@ -3,7 +3,7 @@
 using namespace std; // Menggunakan namespace agar tidak perlu tulis std :: pada penggunaan library
 
 int main(){ // mulai program utama
-    float luas, p, l; // inisialisasi variabel luas, p dan l dengan tipe data float
+    float luas, p, l; // deklarasi variabel luas, p dan l dengan tipe data float
 
     cout << "Masukkan panjang: "; // menampilkan output
     cin >> p; // menerima inputan dan disimpan di variabel p
