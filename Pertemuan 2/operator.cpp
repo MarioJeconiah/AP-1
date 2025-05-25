@@ -3,7 +3,7 @@
 using namespace std; // Menggunakan namespace agar tidak perlu tulis std :: pada penggunaan library
 
 int main(){ // mulai program utama
-    int a, b; // menginisialisasi variabel a dan b bertipe data integer
+    int a, b; // deklarasi variabel a dan b bertipe data integer
 
     system("CLS"); // membersihkan terminal
 
