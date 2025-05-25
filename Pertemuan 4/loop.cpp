@@ -34,7 +34,7 @@ int main(){ // mulai program
         } */
 
         // Statement While 
-        /* int i = 1; inisialisasi vairbale i dengan tipe data integer dan nilai adalah 1
+        /* int i = 1; inisialisasi variabel i dengan tipe data integer dan nilai adalah 1
         while(i <= 10){ pengkondisian pengulangan selama kondisi i <= 10
             if (i % 2 == 0){ pengkondisian jika sisa bagi i dengan 2 adalah 0 maka jalankan instruksi
                 cout << i << " "; menampilkan output
@@ -42,7 +42,8 @@ int main(){ // mulai program
         } */
 
         // Statement Do-While
-        /* int i = 1; inisialisasi vairbale i dengan tipe data integer dan nilai adalah 1
+        /* int i = 1; inisialisasi variabel
+        i dengan tipe data integer dan nilai adalah 1
         do { lakukan instruksi ini
             cout << i << endl; menampilkan output
         }   while (i <= 0); */ // pengkondisian pengulangan selama kondisi i <= 0
