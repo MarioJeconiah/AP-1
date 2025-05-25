@@ -4,10 +4,10 @@ using namespace std; // Menggunakan namespace agar tidak perlu tulis std :: pada
 
 int main () { // program utama
 
-    string nama; // inisialisasi variabel nama bertipe data string
-    char kom, jenisKelamin; // inisialisasi variabel kom dan jenisKelamin tipe data char
-    int nim; // inisialisasi variabel nim bertipe data integer
-    float ip; // inisialisasi variabel ip bertipe data float
+    string nama; // deklarasi variabel nama bertipe data string
+    char kom, jenisKelamin; // deklarasi variabel kom dan jenisKelamin tipe data char
+    int nim; // deklarasi variabel nim bertipe data integer
+    float ip; // deklarasi variabel ip bertipe data float
     
     /* ini untuk komentar 
     beberapa baris */
