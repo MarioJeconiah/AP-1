@@ -2,7 +2,7 @@
 using namespace std; // Menggunakan namespace agar tidak perlu tulis std :: pada penggunaan library     
 
 int main(){ // mulai program
-    int nilai; // inisialisasi variabel nilai bertipe data integer
+    int nilai; // deklarasi variabel nilai bertipe data integer
 
     cin >> nilai; // menerima inputan dan disimpan di variabel nilai
 
