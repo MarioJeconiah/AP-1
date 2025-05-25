@@ -3,8 +3,8 @@
 using namespace std; // Menggunakan namespace agar tidak perlu tulis std :: pada penggunaan library 
 
 int main(){ // mulai program
-    string kalimat; // inisialisasi variabel kalimat bertipe data string
-    int i; // inisialisasi variabel i bertipe data integer
+    string kalimat; // deklarasi variabel kalimat bertipe data string
+    int i; // deklarasi variabel i bertipe data integer
 
     cout << "Masukkan kalimat : "; // menampilkan output
     getline(cin, kalimat); // membaca 1 baris inputan dan disimpan di variabel kalimat
