@@ -11,5 +11,5 @@ int main(){ // mulai program utama
 
     sapa(namaPengguna); // menggunakan function sapa dengan parameter aktual namaPengguna
 
-    return 0; // mengembalikan nilai dan program selesai
+    return 0; // mengembalikan nilai, program selesai
 }
