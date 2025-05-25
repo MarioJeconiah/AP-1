@@ -2,10 +2,10 @@
 #include <conio.h> // header untuk fungsi yang akan dipakai seperti getch
 
 int main() { // mulai program utama
-    char nama[50]; // inisialisasi variabel nama bertipe data char dengan banyak data mencapai 50
-    int nim; // inisialisasi variabel nim bertipe data int
-    char kom[2]; // inisialisasi variabel kom bertipe data char dengna banyak data mencapai 2
-    float ip; // inisialisasi variabel ip bertipe data float
+    char nama[50]; // deklarasi variabel nama bertipe data char dengan panjang array 50
+    int nim; // deklarasi variabel nim bertipe data int
+    char kom[2]; // deklarasi variabel kom bertipe data char dengan panjang array 2
+    float ip; // deklarasi variabel ip bertipe data float
 
     printf("Hello World\n"); // fungsi keluaran pada C
 
