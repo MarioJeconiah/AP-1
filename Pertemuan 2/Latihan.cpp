@@ -1,18 +1,18 @@
-#include <iostream>
-#define pi 3.14
+#include <iostream> // header untuk c++
+#define pi 3.14 
+// konstanta pi dengan nilai 3.14
+using namespace std; // Menggunakan namespace agar tidak perlu tulis std :: pada penggunaan library
 
-using namespace std;
+int main(){ // mulai program utama
+    float jari, volume, luaspermukaan; // inisialisasi variabel jari, volume dan luaspermukaan bertipe data float
+    cout << "Masukkan jari jari: "; // menampilkan output
+    cin >> jari; // menerima inputan dan disimpan di variabel jari
 
-int main(){
-    float jari, volume, luaspermukaan;
-    cout << "Masukkan jari jari: ";
-    cin >> jari;
+  
+    luaspermukaan = 4 * pi * jari * jari;   // volume = pi * 4 / 3* jari * jari * jari;
 
-    // volume = pi * 4 / 3* jari * jari * jari;
-    luaspermukaan = 4 * pi * jari * jari;
+    volume = 4/3; // memberi nilai volume = 4/3
 
-    volume = 4/3;
-
-    cout << "volume adalah: " << volume << endl;
-    cout << "luas permukaan adalah: " << luaspermukaan << endl;
+    cout << "volume adalah: " << volume << endl; // menampilkan output
+    cout << "luas permukaan adalah: " << luaspermukaan << endl; // menampilkan output 
 }
