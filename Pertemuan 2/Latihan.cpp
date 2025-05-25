@@ -4,7 +4,7 @@
 using namespace std; // Menggunakan namespace agar tidak perlu tulis std :: pada penggunaan library 
 
 int main(){ // mulai program utama
-    float jari, volume, luaspermukaan; // inisialisasi variabel jari, volume dan luaspermukaan tipe data float 
+    float jari, volume, luaspermukaan; // deklarasi variabel jari, volume dan luaspermukaan tipe data float 
     cout << "Masukkan jari jari: "; // menampilkan output
     cin >> jari; // menerima inputan dan disimpan di variabel jari
 
